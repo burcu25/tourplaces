@@ -1,0 +1,67 @@
+body{
+    background-color: #7FD1F7;
+
+}
+
+.navbar ul{
+   display: flex;
+   gap: 3rem;
+   list-style-type: none;
+}
+
+li:hover{
+    background-color: #7FD1F7;
+}
+.navbar{
+    background-color: black;
+    justify-content: center;
+    font-family:'Amatic SC', cursive;
+    font-size: 1.3rem;
+    
+}
+    
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 3rem 1rem 2rem 1rem;
+        
+}
+a:hover{
+    background-color: #7FD1F7;
+    color: black;    
+}
+.header h2{
+    margin: 2rem;
+    font-family:'Amatic SC', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+h5{
+    font-family:'Amatic SC', cursive;
+    font-size: 2rem;
+}
+.overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 10px;
+    bottom: 0px;
+    overflow: auto;
+    transition: all 1s;
+    opacity: 0;
+    /* display: none; */
+}
+.overlay:hover{
+    opacity: 1;
+}
+
+.card:hover{
+    filter: grayscale(100%);
+
+}
+img{
+    width: 100%;
+    height: 12rem;
+
+}
