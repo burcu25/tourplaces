@@ -5,13 +5,9 @@ body{
 
 .navbar ul{
    display: flex;
-   gap: 3rem;
    list-style-type: none;
 }
 
-li:hover{
-    background-color: #7FD1F7;
-}
 .navbar{
     font-family:'Amatic SC', cursive;
     font-size: 1.3rem;
@@ -22,7 +18,7 @@ a{
     text-decoration: none;
     color: white;
     font-weight: 600;
-    padding: 3rem 1rem 2rem 1rem;
+    padding: 3rem 1rem 3rem 1rem;
         
 }
 a:hover{
@@ -63,3 +59,19 @@ img{
     height: 12rem;
 
 }
+
+@media only screen and (max-width: 490px){
+    ul{
+        padding: 0.5rem 0.5rem;
+        width: 100%;
+        display: block;
+        flex-direction: column;
+    }
+    a{
+        padding: 0.2rem
+    }
+
+    
+}
+
+
